@@ -16,7 +16,7 @@ export default function UserHome({ user }) {
 
       try {
         const response = await fetch(
-          "https://back-promocio.vercel.app/codes/getUserCodes",
+          "https://promoback.vercel.app/codes/getUserCodes",
           {
         
             method: "POST",
@@ -46,7 +46,7 @@ export default function UserHome({ user }) {
     event.preventDefault();
     try {
       const response = await fetch(
-        "https://back-promocio.vercel.app/codes/registerCode",
+        "https://promoback.vercel.app/codes/registerCode",
         {
       
           method: "POST",

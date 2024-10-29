@@ -13,7 +13,7 @@ export default function AdminHome({ user }) {
     useEffect(() => {
         const fetchWinners = async () => {
             try {
-                const response = await fetch('https://back-promocio.vercel.app/codes/getWinners', {
+                const response = await fetch('https://promoback.vercel.app/codes/getWinners', {
                     method: 'GET',
                     headers: {
                         'Content-Type': 'application/json',
